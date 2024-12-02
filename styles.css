@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+}
+
+header {
+    background: linear-gradient(to right, #3f51b5, #5c6bc0);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.periodic-table {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(18, 50px); /* Colonne larghe 50px */
+    grid-auto-rows: 50px; /* Righe alte 50px */
+    justify-content: center; /* Centrare la griglia */
+    margin: 20px auto; /* Aggiunge spaziatura intorno alla tavola */
+}
+
+.element {
+    position: relative;
+    width: 100%; /* Adatta all'altezza/colonna della griglia */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none; /* Rimuove la sottolineatura */
+}
+
+/* Colori per ogni categoria */
+.hydrogen {
+    background-color: #ffffff65;
+}
+
+.alkali-metal {
+    background-color: #ff6666;
+}
+
+.alkaline-earth-metal {
+    background-color: #ffcc66;
+}
+
+.transition-metal {
+    background-color: #ffcc99;
+}
+
+.post-transition-metal {
+    background-color: #cccccc;
+}
+
+.metalloid {
+    background-color: #66cccc;
+}
+
+.nonmetal {
+    background-color: #66ff66;
+}
+
+.halogen {
+    background-color: #538cff;
+}
+
+.noble-gas {
+    background-color: #ff99ff;
+}
+
+.lanthanide {
+    background-color: #ff66cc;
+}
+
+.actinide {
+    background-color: #cc66ff;
+}
+
+.element span {
+    font-size: 0.7rem;
+    font-weight: normal;
+    color: #555;
+}
+
+.project-phases {
+    background-color: #f4f4f9;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-top: 2px solid #ccc;
+}
+
+.project-phases h2 {
+    color: #3f51b5;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.project-phases .phase {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.project-phases .phase h3 {
+    color: #3f51b5;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-phases .phase p {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.symbol {
+    font-size: 1rem !important; /* Incremento della dimensione */
+    color: #000 !important;
+    font-weight: bold !important; /* Aggiunta del grassetto */
+}
+
+
+.element:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.atomic-number {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.welcome-section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.welcome-section h2 {
+    color: #3f51b5;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.welcome-section p {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.welcome-section p strong {
+    color: #3f51b5;
+}
+
+.welcome-section p:last-child {
+    font-weight: bold;
+    color: #000;
+}
