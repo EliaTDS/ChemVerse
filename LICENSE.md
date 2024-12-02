@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) [2024] [Your Name or Company]
+Copyright (c) [2024] [Simula Elia]
 
 Permission is hereby granted, free of charge, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit others to whom the Software is provided to do so, subject to the following conditions:
 
